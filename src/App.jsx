@@ -170,8 +170,8 @@ function App() {
     './assets/Videos/video3.mp4',
     './assets/Videos/video4.mp4',
     './assets/Videos/video5.mp4',
-    './assets/Videos/video6.mp4
-
+   './assets/Videos/video6.mp4'
+  ]
   const bgChange = () => {
     if (videoIndex >= allVideo.length - 1) {
       let number = 0

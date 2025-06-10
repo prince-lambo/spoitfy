@@ -170,7 +170,7 @@ function App() {
     '/assets/Videos/video3.mp4',
     '/assets/Videos/video4.mp4',
     '/assets/Videos/video5.mp4',
-   '/assets/Videos/video6.mp4'
+   
   ]
   const bgChange = () => {
     if (videoIndex >= allVideo.length - 1) {
@@ -187,7 +187,7 @@ function App() {
       <div className="container ">
         <audio src={currentMusicDetails.songsrc} ref={currentAudio} onEnded={handleNextSong} onTimeUpdate={handleAudioUpdat}></audio>
         <video
-          className='videoBackground'
+          className='videoBackground' preload="none"
           src={allVideo[videoIndex]} autoPlay muted loop></video>
         <div className="blackscreen"></div>
         <div className="music-container">

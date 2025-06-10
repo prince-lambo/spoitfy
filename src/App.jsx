@@ -29,12 +29,7 @@ function App() {
       songsrc: '/assets/songs/laal_pari.mp3',
       songAvtar: '/assets/Images/lal pari.jpg'
     },
-    {
-      songName: 'Apna Bana Le',
-      songArtist: 'Arijit Singh',
-      songsrc: '/assets/songs/apna_bana_le.webm.mp3',
-      songAvtar: '/assets/Images/image7.jpg'
-    },
+   
 
      {
       songName: 'jo tere sung',

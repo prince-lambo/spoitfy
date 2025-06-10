@@ -17,7 +17,7 @@ function App() {
     songName: 'LAAL PARI',
     songArtist: 'Honey Singh',
     songsrc: './src/assets/songs/LAAL PARI.mp3',
-    songAvtar: './src/assets/Images/lal pari.jfif'
+    songAvtar: './src/assets/Images/lal pari.jpg'
   })
 
 
@@ -27,12 +27,12 @@ function App() {
       songName: 'LAAL PARI',
       songArtist: 'Honey Singh',
       songsrc: './src/assets/songs/LAAL PARI.mp3',
-      songAvtar: './src/assets/Images/lal pari.jfif'
+      songAvtar: './src/assets/Images/lal pari.jpg'
     },
     {
       songName: 'Apna Bana Le',
       songArtist: 'Arijit Singh',
-      songsrc: './src/assets/songs/Apna Bana Le.webm',
+      songsrc: './src/assets/songs/Apna Bana Le.webm.mp3',
       songAvtar: './src/assets/Images/image7.jpg'
     },
 
@@ -46,19 +46,19 @@ function App() {
       songName: 'Barbaadiyan',
       songArtist: 'Sachin–Jigar',
       songsrc: './src/assets/songs/Barbaadiyan.mp3',
-      songAvtar: './src/assets/Images/barbadiya.jfif'
+      songAvtar: './src/assets/Images/barbadiya.jpg'
     },
     {
       songName: 'Angreji Beat',
       songArtist: 'Honey Singh',
       songsrc: './src/assets/songs/Angreji Beat.mp3',
-      songAvtar: './src/assets/Images/Angreji.jfif'
+      songAvtar: './src/assets/Images/Angreji.jpg'
     },
     {
       songName: 'Taras',
       songArtist: 'Sachin-Jigar',
       songsrc: './src/assets/songs/Taras.mp3',
-      songAvtar: './src/assets/Images/taras.jfif'
+      songAvtar: './src/assets/Images/taras.jpg'
     },
     {
       songName: 'Chasing - NEFFEX',

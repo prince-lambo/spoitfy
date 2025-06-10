@@ -16,8 +16,8 @@ function App() {
   const [currentMusicDetails, setCurrentMusicDetails] = useState({
     songName: 'LAAL PARI',
     songArtist: 'Honey Singh',
-    songsrc: '/public/assets/songs/laal_pari.mp3',
-    songAvtar: '/public/assets/Images/lal pari.jpg'
+    songsrc: '/assets/songs/laal_pari.mp3',
+    songAvtar: '/assets/Images/lal pari.jpg'
   })
 
 
@@ -26,46 +26,46 @@ function App() {
     {
       songName: 'LAAL PARI',
       songArtist: 'Honey Singh',
-      songsrc: '/public/assets/songs/laal_pari.mp3',
-      songAvtar: '/public/assets/Images/lal pari.jpg'
+      songsrc: '/assets/songs/laal_pari.mp3',
+      songAvtar: '/assets/Images/lal pari.jpg'
     },
    
 
      {
       songName: 'jo tere sung',
       songArtist: 'Mustafa Zahid',
-      songsrc: '/public/assets/songs/jo_tere_sang.mp3',
-      songAvtar: '/public/assets/Images/jo tere sung img.jpg'
+      songsrc: '/assets/songs/jo_tere_sang.mp3',
+      songAvtar: '/assets/Images/jo tere sung img.jpg'
     },
     {
       songName: 'Barbaadiyan',
       songArtist: 'Sachin–Jigar',
-      songsrc: '/public/assets/songs/barbaadiyan.mp3',
-      songAvtar: '/public/assets/Images/barbadiya.jpg'
+      songsrc: '/assets/songs/barbaadiyan.mp3',
+      songAvtar: '/assets/Images/barbadiya.jpg'
     },
     {
       songName: 'Angreji Beat',
       songArtist: 'Honey Singh',
-      songsrc: '/public/assets/songs/angreji_beat.mp3',
-      songAvtar: '/public/assets/Images/Angreji.jpg'
+      songsrc: '/assets/songs/angreji_beat.mp3',
+      songAvtar: '/assets/Images/Angreji.jpg'
     },
     {
       songName: 'Taras',
       songArtist: 'Sachin-Jigar',
-      songsrc: '/public/assets/songs/tars.mp3',
-      songAvtar: '/public/assets/Images/taras.jpg'
+      songsrc: '/assets/songs/tars.mp3',
+      songAvtar: '/assets/Images/taras.jpg'
     },
     {
       songName: 'Chasing - NEFFEX',
       songArtist: 'Honey Singh',
-      songsrc: '/public/assets/songs/baby_doll.mp3',
-      songAvtar: '/public/assets/Images/image1.jpg'
+      songsrc: '/assets/songs/baby_doll.mp3',
+      songAvtar: '/assets/Images/image1.jpg'
     },
     {
       songName: 'Inspired (Clean) - NEFFEX',
       songArtist: 'Honey Singh',
-      songsrc: '/public/assets/songs/aurora-runaway.mp3',
-      songAvtar: '/public/assets/Images/image2.jpg'
+      songsrc: '/assets/songs/aurora-runaway.mp3',
+      songAvtar: '/assets/Images/image2.jpg'
     },
     
    

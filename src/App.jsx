@@ -40,7 +40,7 @@ function App() {
     {
       songName: 'Barbaadiyan',
       songArtist: 'Sachin–Jigar',
-      songsrc: 'assets/songs/barbaadiyan.mp3'
+      songsrc: 'assets/songs/barbaadiyan.mp3',
       songAvtar: 'assets/Images/barbadiya.jpg'
     },
     {

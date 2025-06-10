@@ -186,7 +186,7 @@ function App() {
       <div className="container ">
         <audio src={currentMusicDetails.songsrc} ref={currentAudio} onEnded={handleNextSong} onTimeUpdate={handleAudioUpdat}></audio>
         <video
-          className='videoBackground'
+          className='videoBackground' preload='none'
           src={allVideo[videoIndex]} autoPlay muted loop></video>
         <div className="blackscreen"></div>
         <div className="music-container">

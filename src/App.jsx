@@ -16,7 +16,7 @@ function App() {
   const [currentMusicDetails, setCurrentMusicDetails] = useState({
     songName: 'LAAL PARI',
     songArtist: 'Honey Singh',
-    songsrc: '/assets/songs/LAAL PARI.mp3',
+    songsrc: '/assets/songs/laal_pari.mp3',
     songAvtar: '/assets/Images/lal pari.jpg'
   })
 
@@ -26,58 +26,53 @@ function App() {
     {
       songName: 'LAAL PARI',
       songArtist: 'Honey Singh',
-      songsrc: '/assets/songs/LAAL PARI.mp3',
+      songsrc: '/assets/songs/laal_pari.mp3',
       songAvtar: '/assets/Images/lal pari.jpg'
     },
     {
       songName: 'Apna Bana Le',
       songArtist: 'Arijit Singh',
-      songsrc: '/assets/songs/Apna Bana Le.webm.mp3',
+      songsrc: '/assets/songs/apna_bana_le.webm.mp3',
       songAvtar: '/assets/Images/image7.jpg'
     },
 
      {
       songName: 'jo tere sung',
       songArtist: 'Mustafa Zahid',
-      songsrc: '/assets/songs/jo Tere Sang.mp3',
+      songsrc: '/assets/songs/jo_tere_sang.mp3',
       songAvtar: '/assets/Images/jo tere sung img.jpg'
     },
     {
       songName: 'Barbaadiyan',
       songArtist: 'Sachin–Jigar',
-      songsrc: '/assets/songs/Barbaadiyan.mp3',
+      songsrc: '/assets/songs/barbaadiyan.mp3',
       songAvtar: '/assets/Images/barbadiya.jpg'
     },
     {
       songName: 'Angreji Beat',
       songArtist: 'Honey Singh',
-      songsrc: '/assets/songs/Angreji Beat.mp3',
+      songsrc: '/assets/songs/angreji_beat.mp3',
       songAvtar: '/assets/Images/Angreji.jpg'
     },
     {
       songName: 'Taras',
       songArtist: 'Sachin-Jigar',
-      songsrc: '/assets/songs/Taras.mp3',
+      songsrc: '/assets/songs/tars.mp3',
       songAvtar: '/assets/Images/taras.jpg'
     },
     {
       songName: 'Chasing - NEFFEX',
       songArtist: 'Honey Singh',
-      songsrc: '/assets/songs/Chasing - NEFFEX.mp3',
+      songsrc: '/assets/songs/baby_doll.mp3',
       songAvtar: '/assets/Images/image1.jpg'
     },
     {
       songName: 'Inspired (Clean) - NEFFEX',
       songArtist: 'Honey Singh',
-      songsrc: '/assets/songs/Inspired (Clean) - NEFFEX.mp3',
+      songsrc: '/assets/songs/aurora-runaway.mp3',
       songAvtar: '/assets/Images/image2.jpg'
     },
-    {
-      songName: 'SOCH(Slowed+Reverbed) __ Hardy Sandhu',
-      songArtist: 'Honey Singh',
-      songsrc: '/assets/songs/SOCH(Slowed+Reverbed) __ Hardy Sandhu.mp3',
-      songAvtar: '/assets/Images/image3.jpg'
-    }
+    
    
   ]
 

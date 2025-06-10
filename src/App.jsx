@@ -47,7 +47,7 @@ function App() {
       songName: 'Angreji Beat',
       songArtist: 'Honey Singh',
       songsrc: '/assets/songs/angreji_beat.mp3',
-      songAvtar: '/assets/Images/Angreji.jpg'
+      songAvtar: '/assets/Images/angreji.jpg'
     },
     {
       songName: 'Taras',

@@ -16,8 +16,8 @@ function App() {
   const [currentMusicDetails, setCurrentMusicDetails] = useState({
     songName: 'LAAL PARI',
     songArtist: 'Honey Singh',
-    songsrc: './src/assets/songs/LAAL PARI.mp3',
-    songAvtar: './src/assets/Images/lal pari.jpg'
+    songsrc: './assets/songs/LAAL PARI.mp3',
+    songAvtar: './assets/Images/lal pari.jpg'
   })
 
 
@@ -26,57 +26,57 @@ function App() {
     {
       songName: 'LAAL PARI',
       songArtist: 'Honey Singh',
-      songsrc: './src/assets/songs/LAAL PARI.mp3',
-      songAvtar: './src/assets/Images/lal pari.jpg'
+      songsrc: './assets/songs/LAAL PARI.mp3',
+      songAvtar: './assets/Images/lal pari.jpg'
     },
     {
       songName: 'Apna Bana Le',
       songArtist: 'Arijit Singh',
-      songsrc: './src/assets/songs/Apna Bana Le.webm.mp3',
-      songAvtar: './src/assets/Images/image7.jpg'
+      songsrc: './assets/songs/Apna Bana Le.webm.mp3',
+      songAvtar: './assets/Images/image7.jpg'
     },
 
      {
       songName: 'jo tere sung',
       songArtist: 'Mustafa Zahid',
-      songsrc: './src/assets/songs/jo Tere Sang.mp3',
-      songAvtar: './src/assets/Images/jo tere sung img.jpg'
+      songsrc: './assets/songs/jo Tere Sang.mp3',
+      songAvtar: './assets/Images/jo tere sung img.jpg'
     },
     {
       songName: 'Barbaadiyan',
       songArtist: 'Sachin–Jigar',
-      songsrc: './src/assets/songs/Barbaadiyan.mp3',
-      songAvtar: './src/assets/Images/barbadiya.jpg'
+      songsrc: './assets/songs/Barbaadiyan.mp3',
+      songAvtar: './assets/Images/barbadiya.jpg'
     },
     {
       songName: 'Angreji Beat',
       songArtist: 'Honey Singh',
-      songsrc: './src/assets/songs/Angreji Beat.mp3',
-      songAvtar: './src/assets/Images/Angreji.jpg'
+      songsrc: './assets/songs/Angreji Beat.mp3',
+      songAvtar: './assets/Images/Angreji.jpg'
     },
     {
       songName: 'Taras',
       songArtist: 'Sachin-Jigar',
-      songsrc: './src/assets/songs/Taras.mp3',
-      songAvtar: './src/assets/Images/taras.jpg'
+      songsrc: './assets/songs/Taras.mp3',
+      songAvtar: './assets/Images/taras.jpg'
     },
     {
       songName: 'Chasing - NEFFEX',
       songArtist: 'Honey Singh',
-      songsrc: './src/assets/songs/Chasing - NEFFEX.mp3',
-      songAvtar: './src/assets/Images/image1.jpg'
+      songsrc: './assets/songs/Chasing - NEFFEX.mp3',
+      songAvtar: './assets/Images/image1.jpg'
     },
     {
       songName: 'Inspired (Clean) - NEFFEX',
       songArtist: 'Honey Singh',
-      songsrc: './src/assets/songs/Inspired (Clean) - NEFFEX.mp3',
-      songAvtar: './src/assets/Images/image2.jpg'
+      songsrc: './assets/songs/Inspired (Clean) - NEFFEX.mp3',
+      songAvtar: './assets/Images/image2.jpg'
     },
     {
       songName: 'SOCH(Slowed+Reverbed) __ Hardy Sandhu',
       songArtist: 'Honey Singh',
-      songsrc: './src/assets/songs/SOCH(Slowed+Reverbed) __ Hardy Sandhu.mp3',
-      songAvtar: './src/assets/Images/image3.jpg'
+      songsrc: './assets/songs/SOCH(Slowed+Reverbed) __ Hardy Sandhu.mp3',
+      songAvtar: './assets/Images/image3.jpg'
     }
    
   ]
@@ -165,13 +165,12 @@ function App() {
   }
 
   const allVideo = [
-    './src/assets/Videos/video1.mp4',
-    './src/assets/Videos/video2.mp4',
-    './src/assets/Videos/video3.mp4',
-    './src/assets/Videos/video4.mp4',
-    './src/assets/Videos/video5.mp4',
-    './src/assets/Videos/video6.mp4'
-  ]
+    './assets/Videos/video1.mp4',
+    './assets/Videos/video2.mp4',
+    './assets/Videos/video3.mp4',
+    './assets/Videos/video4.mp4',
+    './assets/Videos/video5.mp4',
+    './assets/Videos/video6.mp4
 
   const bgChange = () => {
     if (videoIndex >= allVideo.length - 1) {
